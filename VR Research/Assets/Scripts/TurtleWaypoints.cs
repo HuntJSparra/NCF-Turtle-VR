@@ -11,11 +11,13 @@ public class TurtleWaypoints : MonoBehaviour
 
     public Transform headMarker;
     public Transform plasticBag;
+    private Vector3 bagPos;
 
 
     void OnValidate()
     {
         transform.position = waypoints[0];
+        bagPos = plasticBag.position;
     }
 
     // Start is called before the first frame update
@@ -35,7 +37,7 @@ public class TurtleWaypoints : MonoBehaviour
 
         if (Input.GetKeyDown("p") && !plasticBag.gameObject.activeSelf)
         {
-            plasticBag.position = new Vector3(Camera.main.transform.position.x, plasticBag.position.y, Camera.main.transform.position.z);
+            plasticBag.position = bagPos;
             plasticBag.gameObject.SetActive(true);
             goForPlasticBag();
         }
