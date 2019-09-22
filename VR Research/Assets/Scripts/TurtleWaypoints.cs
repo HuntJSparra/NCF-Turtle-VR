@@ -1,6 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
+/*
+ * STOP COROUTINE FOR PLASTIC BAG TEXT WHEN INSTANTIATING BAG
+ */
 
 public class TurtleWaypoints : MonoBehaviour
 {
@@ -13,11 +18,20 @@ public class TurtleWaypoints : MonoBehaviour
     public Transform plasticBag;
     private Vector3 bagPos;
 
+    public Text textBubble;
+    [TextArea]
+    public string jellybeanDefaultText;
+    [TextArea]
+    public string jellybeanJellyfishText;
+    [TextArea]
+    public string jellybeanPlasticBagText;
+
 
     void OnValidate()
     {
         transform.position = waypoints[0];
         bagPos = plasticBag.position;
+        textBubble.text = jellybeanDefaultText;
     }
 
     // Start is called before the first frame update
@@ -46,6 +60,7 @@ public class TurtleWaypoints : MonoBehaviour
 
     void goForPlasticBag()
     {
+        textBubble.text = jellybeanJellyfishText;
         ws.takeDetour(new ManualTransformWaypoint(plasticBag));
         StartCoroutine(grabBag());
     }
@@ -60,7 +75,9 @@ public class TurtleWaypoints : MonoBehaviour
         plasticBag.GetComponent<Rigidbody>().isKinematic = true;
         StartCoroutine(holdBag());
 
-        ws.stopDetour();
+        ws.takeDetour(new ManualTransformWaypoint(Camera.main.transform));
+        speed /= 10;
+        //ws.stopDetour();
     }
 
     IEnumerator holdBag()
@@ -82,5 +99,16 @@ public class TurtleWaypoints : MonoBehaviour
 
         a.SetBool("Eating", false);
         a.SetTrigger("Thrash");
+
+        ws.stopDetour();
+        speed *= 10;
+        StartCoroutine(plasticBagText());
+    }
+
+    IEnumerator plasticBagText()
+    {
+        textBubble.text = jellybeanPlasticBagText;
+        yield return new WaitForSeconds(5.5f);
+        textBubble.text = jellybeanDefaultText;
     }
 }
