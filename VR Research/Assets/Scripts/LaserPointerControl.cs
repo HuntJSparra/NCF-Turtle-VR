@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class LaserPointerControl : MonoBehaviour
 {
-    public LineRenderer Left, Right;
+    public GameObject Left, Right;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,19 +16,19 @@ public class LaserPointerControl : MonoBehaviour
     {
         if (OVRInput.Get(OVRInput.Button.PrimaryHandTrigger) == true && OVRInput.Get(OVRInput.Touch.PrimaryIndexTrigger) == false)
         {
-            Left.enabled = true;
+            Left.SetActive(true);
         }
         else
         {
-            Left.enabled = false;
+            Left.SetActive(false);
         }
         if (OVRInput.Get(OVRInput.Button.SecondaryHandTrigger) == true && OVRInput.Get(OVRInput.Touch.SecondaryIndexTrigger) == false)
         {
-            Right.enabled = true;
+            Right.SetActive(true);
         }
         else
         {
-            Right.enabled = false;
+            Right.SetActive(false);
         }
     }
 }
