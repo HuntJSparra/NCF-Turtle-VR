@@ -18,6 +18,8 @@ public class BoatFSM : MonoBehaviour
 
     private State state;
 
+    public GameObject trashPrefab;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -52,8 +54,19 @@ public class BoatFSM : MonoBehaviour
 
     IEnumerator ThrowTrash()
     {
-        Debug.Log("Throwing Trash");
+        Instantiate(trashPrefab, transform.position, Quaternion.identity);
+        Instantiate(trashPrefab, transform.position, Quaternion.identity);
+        Instantiate(trashPrefab, transform.position, Quaternion.identity);
         yield return new WaitForSeconds(10);
         state = State.Exiting;
+        StartCoroutine(Reset());
+    }
+
+    IEnumerator Reset()
+    {
+        yield return new WaitForSeconds(20);
+
+        state = State.Entering;
+        transform.position = start;
     }
 }
