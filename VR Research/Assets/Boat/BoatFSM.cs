@@ -25,12 +25,14 @@ public class BoatFSM : MonoBehaviour
     {
         start = transform.position;
         midPoint.y = start.y;
-        state = State.Entering;
+        state = State.Exiting;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown("b")) StartCoroutine(Reset());
+
         if (state == State.Entering)
         {
             float speed = Mathf.Min(topSpeed, Vector3.Distance(transform.position, midPoint));
@@ -59,14 +61,20 @@ public class BoatFSM : MonoBehaviour
         Instantiate(trashPrefab, transform.position, Quaternion.identity);
         yield return new WaitForSeconds(10);
         state = State.Exiting;
-        StartCoroutine(Reset());
+        //StartCoroutine(Reset());
     }
 
     IEnumerator Reset()
     {
-        yield return new WaitForSeconds(20);
+        if (state != State.Exiting)
+        {
+            yield return new WaitForEndOfFrame();
+        } else
+        {
+            //yield return new WaitForSeconds(20);
 
-        state = State.Entering;
-        transform.position = start;
+            state = State.Entering;
+            transform.position = start;
+        }
     }
 }
