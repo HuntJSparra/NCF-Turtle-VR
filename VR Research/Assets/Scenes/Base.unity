@@ -3240,7 +3240,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &91641401
 Transform:
   m_ObjectHideFlags: 0
@@ -3272,7 +3272,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3637b758ff163493f8bb8b6d7e96d7ae, type: 2}
+  - {fileID: 2100000, guid: ab599363290e1c045b7bad7122332560, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -17752,7 +17752,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &458732839
 Transform:
   m_ObjectHideFlags: 0
@@ -17784,7 +17784,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 944feb076639a4d39b750e3cb5d7dfab, type: 2}
+  - {fileID: 2100000, guid: ab599363290e1c045b7bad7122332560, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -83718,7 +83718,7 @@ MonoBehaviour:
   Driver: {fileID: 114411036623279570}
   oculusUserID: 0
   EnableBody: 1
-  EnableHands: 1
+  EnableHands: 0
   EnableBase: 0
   EnableExpressive: 1
   RecordPackets: 0
