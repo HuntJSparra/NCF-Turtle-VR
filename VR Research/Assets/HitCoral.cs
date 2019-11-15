@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DestroyTrash : MonoBehaviour
+public class HitCoral : MonoBehaviour
 {
+    // Start is called before the first frame update
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Trash")
         {
-            Destroy(other.gameObject);
-            UpdatePoints.addPoint();
+            UpdatePoints.removePoint();
         }
     }
 }

@@ -5,11 +5,12 @@ using UnityEngine;
 public class Pointable : MonoBehaviour
 {
     private GameObject childObj;
-    bool pointedAt;
+    bool pointedAt,firstPoint;
     // Start is called before the first frame update
     void Start()
     {
         pointedAt = false;
+        firstPoint = true;
         childObj = gameObject.transform.Find("Canvas").gameObject;
     }
 
@@ -18,6 +19,11 @@ public class Pointable : MonoBehaviour
     {
         if (pointedAt)
         {
+            if (firstPoint)
+            {
+                UpdatePoints.addPoint();
+                firstPoint = false;
+            }
             childObj.SetActive(true);
             pointedAt = false;
         }
