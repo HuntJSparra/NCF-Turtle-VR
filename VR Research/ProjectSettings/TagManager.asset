@@ -6,6 +6,7 @@ TagManager:
   tags:
   - pointable
   - Trash
+  - Soda
   layers:
   - Default
   - TransparentFX
