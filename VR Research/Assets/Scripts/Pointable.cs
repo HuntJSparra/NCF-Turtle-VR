@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class Pointable : MonoBehaviour
 {
-    private GameObject childObj;
+    public GameObject canvas;
     bool pointedAt,firstPoint;
+    public string itemTag;
     // Start is called before the first frame update
     void Start()
     {
         pointedAt = false;
-        firstPoint = true;
-        childObj = gameObject.transform.Find("Canvas").gameObject;
+        firstPoint = false;
     }
 
     // Update is called once per frame
@@ -24,17 +24,23 @@ public class Pointable : MonoBehaviour
                 UpdatePoints.addPoint();
                 firstPoint = false;
             }
-            childObj.SetActive(true);
+            canvas.GetComponent<CanvasCollect>().turnOn();
             pointedAt = false;
-        }
-        else
-        {
-            childObj.SetActive(false);
         }
     }
 
     public void getPointed()
     {
         pointedAt = true;
+    }
+
+    public void setFirst()
+    {
+        firstPoint = true;
+    }
+
+    public string giveTag()
+    {
+        return itemTag;
     }
 }

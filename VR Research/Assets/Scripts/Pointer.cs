@@ -22,7 +22,14 @@ public class Pointer : MonoBehaviour
         {
             if (hit.collider.tag.Equals("pointable"))
             {
-                hit.collider.gameObject.GetComponent<Pointable>().getPointed();
+                Pointable temp = hit.collider.gameObject.GetComponent<Pointable>();
+                temp.getPointed();
+                string tag = temp.giveTag();
+                if (!LaserPointerControl.containsTag(tag))
+                {
+                    temp.setFirst();
+                    LaserPointerControl.addTag(tag);
+                }
             }
         }
     }

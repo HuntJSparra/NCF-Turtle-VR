@@ -1478,6 +1478,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fe67bbc8bce9e4bbc982073cee4c20a5, type: 3}
+      propertyPath: m_TagString
+      value: pointable
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe67bbc8bce9e4bbc982073cee4c20a5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.34108913
@@ -1561,6 +1565,20 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 32661024}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &32661030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 32661025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a647368a1429eb748b7f31e71f2ceeda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 1472869218}
+  itemTag: Rock2
 --- !u!4 &34788863 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: ddf80cfeed84f4b7f9596994d5ac7ca9,
@@ -2558,6 +2576,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fe67bbc8bce9e4bbc982073cee4c20a5, type: 3}
+      propertyPath: m_TagString
+      value: pointable
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe67bbc8bce9e4bbc982073cee4c20a5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.3569772
@@ -2641,6 +2663,20 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 67926529}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &67926535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67926530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a647368a1429eb748b7f31e71f2ceeda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 1472869218}
+  itemTag: Rock2
 --- !u!1 &72748415
 GameObject:
   m_ObjectHideFlags: 0
@@ -3087,6 +3123,20 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 77785058}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &77785064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77785059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a647368a1429eb748b7f31e71f2ceeda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 2018023897}
+  itemTag: Rock3
 --- !u!1001 &78842066
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4523,6 +4573,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fe67bbc8bce9e4bbc982073cee4c20a5, type: 3}
+      propertyPath: m_TagString
+      value: pointable
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe67bbc8bce9e4bbc982073cee4c20a5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -4594,6 +4648,20 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 105229766}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &105229772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105229767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a647368a1429eb748b7f31e71f2ceeda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 2018023897}
+  itemTag: Rock3
 --- !u!1 &105435885
 GameObject:
   m_ObjectHideFlags: 0
@@ -8312,6 +8380,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fe67bbc8bce9e4bbc982073cee4c20a5, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fe67bbc8bce9e4bbc982073cee4c20a5, type: 3}
+      propertyPath: m_TagString
+      value: pointable
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe67bbc8bce9e4bbc982073cee4c20a5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20322,6 +20394,20 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 521434330}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &521434336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521434331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a647368a1429eb748b7f31e71f2ceeda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 1156856706}
+  itemTag: Rock1
 --- !u!1 &523912502
 GameObject:
   m_ObjectHideFlags: 0
@@ -20368,6 +20454,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fe67bbc8bce9e4bbc982073cee4c20a5, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fe67bbc8bce9e4bbc982073cee4c20a5, type: 3}
+      propertyPath: m_TagString
+      value: pointable
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe67bbc8bce9e4bbc982073cee4c20a5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20446,6 +20536,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.4798774, y: 1.2124455, z: 1.4798774}
   m_Center: {x: 0, y: -0.009745836, z: 0}
+--- !u!114 &524896901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524896899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a647368a1429eb748b7f31e71f2ceeda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 1156856706}
+  itemTag: Rock1
 --- !u!4 &524896903 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: fe67bbc8bce9e4bbc982073cee4c20a5,
@@ -22617,6 +22721,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fe67bbc8bce9e4bbc982073cee4c20a5, type: 3}
+      propertyPath: m_TagString
+      value: pointable
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe67bbc8bce9e4bbc982073cee4c20a5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.47531605
@@ -22694,6 +22802,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.4798774, y: 1.2124455, z: 1.4798774}
   m_Center: {x: 0, y: -0.009745836, z: 0}
+--- !u!114 &565060091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 565060089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a647368a1429eb748b7f31e71f2ceeda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 1156856706}
+  itemTag: Rock1
 --- !u!4 &565060093 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: fe67bbc8bce9e4bbc982073cee4c20a5,
@@ -29636,6 +29758,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fe67bbc8bce9e4bbc982073cee4c20a5, type: 3}
+      propertyPath: m_TagString
+      value: pointable
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe67bbc8bce9e4bbc982073cee4c20a5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.7554556
@@ -29719,6 +29845,20 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 745768839}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &745768845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 745768840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a647368a1429eb748b7f31e71f2ceeda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 2018023897}
+  itemTag: Rock3
 --- !u!1001 &747113958
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30361,6 +30501,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 212862993}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &759334179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759334178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a647368a1429eb748b7f31e71f2ceeda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 1156856706}
+  itemTag: Rock1
 --- !u!4 &759334181 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: fe67bbc8bce9e4bbc982073cee4c20a5,
@@ -31294,12 +31448,11 @@ GameObject:
   m_Component:
   - component: {fileID: 791926527}
   - component: {fileID: 791926528}
-  - component: {fileID: 791926531}
   - component: {fileID: 791926530}
   - component: {fileID: 791926529}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: CoralRockMeshGroup
-  m_TagString: pointable
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31470,18 +31623,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f0aa4fff93f6ef24aa22b3e84aede505, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &791926531
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 791926526}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a647368a1429eb748b7f31e71f2ceeda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &796691831
@@ -36607,13 +36748,14 @@ GameObject:
   - component: {fileID: 953391541}
   - component: {fileID: 953391540}
   - component: {fileID: 953391539}
+  - component: {fileID: 953391543}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &953391538
 RectTransform:
   m_ObjectHideFlags: 0
@@ -36708,6 +36850,18 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &953391543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 953391537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bce838eb67251043ab68042fdf8fc43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &953962272
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38282,7 +38436,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &982967669
 Transform:
   m_ObjectHideFlags: 0
@@ -43947,7 +44101,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: fe67bbc8bce9e4bbc982073cee4c20a5, type: 3}
       propertyPath: m_Layer
-      value: 2
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fe67bbc8bce9e4bbc982073cee4c20a5, type: 3}
+      propertyPath: m_TagString
+      value: pointable
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe67bbc8bce9e4bbc982073cee4c20a5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -44026,6 +44184,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.4798774, y: 1.2124455, z: 1.4798774}
   m_Center: {x: 0, y: -0.009745836, z: 0}
+--- !u!114 &1128669824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1128669822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a647368a1429eb748b7f31e71f2ceeda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 1156856706}
+  itemTag: Rock1
 --- !u!4 &1128669826 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: fe67bbc8bce9e4bbc982073cee4c20a5,
@@ -45151,13 +45323,14 @@ GameObject:
   - component: {fileID: 1156856710}
   - component: {fileID: 1156856709}
   - component: {fileID: 1156856708}
+  - component: {fileID: 1156856712}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1156856707
 RectTransform:
   m_ObjectHideFlags: 0
@@ -45252,6 +45425,18 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1156856712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1156856706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bce838eb67251043ab68042fdf8fc43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1156973141
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48500,11 +48685,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: fe67bbc8bce9e4bbc982073cee4c20a5, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: pointable
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: fe67bbc8bce9e4bbc982073cee4c20a5, type: 3}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe67bbc8bce9e4bbc982073cee4c20a5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -48569,14 +48754,28 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5, y: 1.5, z: 1.5}
-  m_Center: {x: 0, y: 0.21, z: 0}
+  m_Size: {x: 1.4, y: 1.3, z: 1.4}
+  m_Center: {x: 0, y: 0.1, z: 0}
 --- !u!4 &1249519767 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: fe67bbc8bce9e4bbc982073cee4c20a5,
     type: 3}
   m_PrefabInstance: {fileID: 1249519762}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1249519768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1249519763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a647368a1429eb748b7f31e71f2ceeda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 953391537}
+  itemTag: Rock4
 --- !u!1 &1249838193
 GameObject:
   m_ObjectHideFlags: 0
@@ -54539,11 +54738,10 @@ GameObject:
   - component: {fileID: 1406630040}
   - component: {fileID: 1406630041}
   - component: {fileID: 1406630043}
-  - component: {fileID: 1406630042}
   - component: {fileID: 1406630044}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: CoralRockMeshGroup
-  m_TagString: pointable
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54686,18 +54884,6 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f79003230b4ba724f8a5cfa579bb6f5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1406630042
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1406630039}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a647368a1429eb748b7f31e71f2ceeda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!65 &1406630043
@@ -57214,13 +57400,14 @@ GameObject:
   - component: {fileID: 1472869222}
   - component: {fileID: 1472869221}
   - component: {fileID: 1472869220}
+  - component: {fileID: 1472869224}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1472869219
 RectTransform:
   m_ObjectHideFlags: 0
@@ -57315,6 +57502,18 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1472869224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472869218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bce838eb67251043ab68042fdf8fc43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1473596059 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: ddf80cfeed84f4b7f9596994d5ac7ca9,
@@ -63332,11 +63531,10 @@ GameObject:
   - component: {fileID: 1580152722}
   - component: {fileID: 1580152721}
   - component: {fileID: 1580152723}
-  - component: {fileID: 1580152720}
   - component: {fileID: 1580152719}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: CoralRockMeshGroup
-  m_TagString: pointable
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63354,18 +63552,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.6, y: 1.3, z: 2.2}
   m_Center: {x: -0.2, y: 0.2, z: 0.71}
---- !u!114 &1580152720
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1580152718}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a647368a1429eb748b7f31e71f2ceeda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1580152721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71587,6 +71773,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fe67bbc8bce9e4bbc982073cee4c20a5, type: 3}
+      propertyPath: m_TagString
+      value: pointable
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe67bbc8bce9e4bbc982073cee4c20a5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.0115868
@@ -71670,6 +71860,20 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1846819259}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1846819265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846819260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a647368a1429eb748b7f31e71f2ceeda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 2018023897}
+  itemTag: Rock3
 --- !u!1 &1848386563
 GameObject:
   m_ObjectHideFlags: 0
@@ -72009,7 +72213,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1859216949
 Transform:
   m_ObjectHideFlags: 0
@@ -77001,12 +77205,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1973843809}
   - component: {fileID: 1973843810}
-  - component: {fileID: 1973843812}
   - component: {fileID: 1973843811}
   - component: {fileID: 1973843813}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: CoralRockMeshGroup
-  m_TagString: pointable
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77144,18 +77347,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.6, y: 1.6, z: 1.6}
   m_Center: {x: 0, y: -0.1, z: 0.11}
---- !u!114 &1973843812
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1973843808}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a647368a1429eb748b7f31e71f2ceeda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1973843813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78857,13 +79048,14 @@ GameObject:
   - component: {fileID: 2018023901}
   - component: {fileID: 2018023900}
   - component: {fileID: 2018023899}
+  - component: {fileID: 2018023903}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2018023898
 RectTransform:
   m_ObjectHideFlags: 0
@@ -78958,6 +79150,18 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &2018023903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2018023897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bce838eb67251043ab68042fdf8fc43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2019063198
 GameObject:
   m_ObjectHideFlags: 0
@@ -80004,6 +80208,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fe67bbc8bce9e4bbc982073cee4c20a5, type: 3}
+      propertyPath: m_TagString
+      value: pointable
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fe67bbc8bce9e4bbc982073cee4c20a5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.38751146
@@ -80087,6 +80295,20 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2061593662}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2061593668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2061593663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a647368a1429eb748b7f31e71f2ceeda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 1472869218}
+  itemTag: Rock2
 --- !u!1001 &2068421749
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -5,10 +5,11 @@ using UnityEngine;
 public class LaserPointerControl : MonoBehaviour
 {
     public GameObject Left, Right;
+    static ArrayList tags;
     // Start is called before the first frame update
     void Start()
     {
-        
+        tags = new ArrayList();
     }
 
     // Update is called once per frame
@@ -30,5 +31,15 @@ public class LaserPointerControl : MonoBehaviour
         {
             Right.SetActive(false);
         }
+    }
+
+    public static bool containsTag(string tag)
+    {
+        return tags.Contains(tag);
+    }
+
+    public static void addTag(string tag)
+    {
+        tags.Add(tag);
     }
 }
