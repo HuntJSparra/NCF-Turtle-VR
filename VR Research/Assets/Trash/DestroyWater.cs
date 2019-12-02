@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DestroyTrash : MonoBehaviour
+public class DestroyWater : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Trash" || other.gameObject.tag == "Soda" || other.gameObject.tag == "Water")
+        if ( other.gameObject.tag == "Water")
         {
             Destroy(other.gameObject);
             UpdatePoints.addPoint();

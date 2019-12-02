@@ -6,12 +6,14 @@ using UnityEngine.UI;
 public class UpdatePoints : MonoBehaviour
 {
     private static int points;
-    private Text stars;
+    private Text RightStars, LeftStars;
+    public GameObject LeftHand, RightHand;
     // Start is called before the first frame update
     void Start()
     {
         points = 1;
-        stars = GetComponentInChildren<Text>();
+        RightStars = RightHand.GetComponentInChildren<Text>();
+        LeftStars = LeftHand.GetComponentInChildren<Text>();
     }
 
     public static void addPoint()
@@ -27,11 +29,41 @@ public class UpdatePoints : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        string temp = "";
-        for(int i = 0; i < points; i++)
+        switch (points)
         {
-            temp += "*";
+            case 1:
+                RightStars.text = "*";
+                LeftStars.text = ""; break;
+            case 2:
+                RightStars.text = "*";
+                LeftStars.text = "*"; break;
+            case 3:
+                RightStars.text = "**";
+                LeftStars.text = "*"; break;
+            case 4:
+                RightStars.text = "**";
+                LeftStars.text = "**"; break;
+            case 5:
+                RightStars.text = "***";
+                LeftStars.text = "**"; break;
+            case 6:
+                RightStars.text = "***";
+                LeftStars.text = "***"; break;
+            case 7:
+                RightStars.text = "****";
+                LeftStars.text = "***"; break;
+            case 8:
+                RightStars.text = "****";
+                LeftStars.text = "****"; break;
+            case 9:
+                RightStars.text = "*****";
+                LeftStars.text = "****"; break;
+            case 10:
+                RightStars.text = "*****";
+                LeftStars.text = "*****"; break;
+            default:
+                RightStars.text = "";
+                LeftStars.text = ""; break;
         }
-        stars.text = temp;
     }
 }

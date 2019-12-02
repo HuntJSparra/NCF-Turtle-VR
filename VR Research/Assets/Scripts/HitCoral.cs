@@ -7,7 +7,7 @@ public class HitCoral : MonoBehaviour
     // Start is called before the first frame update
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Trash" || other.gameObject.tag == "Soda")
+        if (other.gameObject.tag == "Trash" || other.gameObject.tag == "Soda" || other.gameObject.tag == "Water")
         {
             UpdatePoints.removePoint();
         }
