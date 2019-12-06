@@ -21,7 +21,14 @@ public class Pointable : MonoBehaviour
         {
             if (firstPoint)
             {
-                UpdatePoints.addPoint();
+                if (gameObject.tag.Equals("Coral"))
+                {
+                    UpdatePoints.coralPoint();
+                }
+                else
+                {
+                    UpdatePoints.addPoint();
+                }
                 firstPoint = false;
             }
             canvas.GetComponent<CanvasCollect>().turnOn();

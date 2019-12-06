@@ -20,7 +20,7 @@ public class Pointer : MonoBehaviour
         Ray ray = new Ray(str, fwd);
         if (Physics.Raycast(ray, out hit))
         {
-            if (hit.collider.tag.Equals("pointable"))
+            if (hit.collider.tag.Equals("pointable") || hit.collider.tag.Equals("Coral"))
             {
                 Pointable temp = hit.collider.gameObject.GetComponent<Pointable>();
                 temp.getPointed();

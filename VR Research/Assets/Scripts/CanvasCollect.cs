@@ -7,6 +7,7 @@ public class CanvasCollect : MonoBehaviour
 {
     private int on;
     private GameObject textObject, imageObject;
+    public List<GameObject> otherObjects;
 
     private void Start()
     {
@@ -14,6 +15,13 @@ public class CanvasCollect : MonoBehaviour
         imageObject = gameObject.GetComponentInChildren<Image>().gameObject;
         textObject.SetActive(false);
         imageObject.SetActive(false);
+        if (otherObjects.Count > 0)
+        {
+            foreach (GameObject obj in otherObjects)
+            {
+                obj.SetActive(false);
+            }
+        }
     }
 
     private void LateUpdate()
@@ -39,11 +47,25 @@ public class CanvasCollect : MonoBehaviour
     {
         textObject.SetActive(true);
         imageObject.SetActive(true);
+        if (otherObjects.Count > 0)
+        {
+            foreach (GameObject obj in otherObjects)
+            {
+                obj.SetActive(true);
+            }
+        }
     }
 
     private void deactivate()
     {
         textObject.SetActive(false);
         imageObject.SetActive(false);
+        if (otherObjects.Count > 0)
+        {
+            foreach (GameObject obj in otherObjects)
+            {
+                obj.SetActive(false);
+            }
+        }
     }
 }
