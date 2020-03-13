@@ -27,6 +27,8 @@ public class TurtleWaypoints : MonoBehaviour
     public string jellybeanPlasticBagText;
 
 
+    private string seaturtleName = "Jellybean";
+
     void OnValidate()
     {
         transform.position = waypoints[0];
@@ -38,6 +40,18 @@ public class TurtleWaypoints : MonoBehaviour
     void Start()
     {
         ws = new WaypointSystem(transform, waypoints);
+
+        GameObject nameHolder = GameObject.FindGameObjectWithTag("name changer");
+        if (nameHolder != null)
+        {
+            UpdateName(nameHolder.GetComponent<SeaTurtleNameChanger>().seaTurtleName);
+        }
+        else
+        {
+            UpdateName("Jellybean");
+        }
+
+        //UpdateTextBubble(jellybeanDefaultText);
     }
 
     // Update is called once per frame
@@ -57,10 +71,20 @@ public class TurtleWaypoints : MonoBehaviour
         }
     }
 
+    void UpdateName(string newName)
+    {
+        seaturtleName = newName;
+        UpdateTextBubble(jellybeanDefaultText);
+    }
+
+    void UpdateTextBubble(string newText)
+    {
+        textBubble.text = newText.Replace("%name", seaturtleName);
+    }
 
     void goForPlasticBag()
     {
-        textBubble.text = jellybeanJellyfishText;
+        UpdateTextBubble(jellybeanJellyfishText);
         ws.takeDetour(new ManualTransformWaypoint(plasticBag));
         StartCoroutine(grabBag());
     }
@@ -107,8 +131,8 @@ public class TurtleWaypoints : MonoBehaviour
 
     IEnumerator plasticBagText()
     {
-        textBubble.text = jellybeanPlasticBagText;
+        UpdateTextBubble(jellybeanPlasticBagText);
         yield return new WaitForSeconds(5.5f);
-        textBubble.text = jellybeanDefaultText;
+        UpdateTextBubble(jellybeanDefaultText);
     }
 }
