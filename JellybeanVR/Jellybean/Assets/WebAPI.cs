@@ -8,7 +8,7 @@ using UnityEngine;
 
 public class WebAPI {
     readonly HttpClient httpClient;
-    readonly string API_URL = "http://localhost:5000/api/jellybean";//"http://www.hjsparra.com/api/jellybean";
+    readonly string API_URL = "http://www.hjsparra.com/api/jellybean";//"http://localhost:5000/api/jellybean";
 
     private bool initialized;
     private int userId, sessionNum;
