@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 1417455245
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8278a09cca1e375b8a9fe811c1298340
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e870fe55c515b71bfbc233cfbec83308
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 1953259897
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Terrain Assets/Floor/Sand Layer.terrainlayer
+Dependencies:
+- C:/Users/HNS Local/Desktop/NEW NCF-Turtle-VR-master/(OCCULUS) Jellybean VR/OVRAssetBundles/OVRMasterBundle/asset_psd0

@@ -1,0 +1,44 @@
+ManifestFileVersion: 0
+CRC: 2846572731
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 199f363b571ec5cf869b6e3b93f71cc2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6db94000910ead01ac9a77a147a04daa
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 12f92cd32ce74a3489f6c65448b4d222, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: aab4c587457d86f4ca80582f946785ad, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0fc66c89246e3cf45a36b360ea363808, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Trash/soda_can.prefab
+- Assets/Oculus/SampleFramework/Core/CustomHands/Models/HandPoseDefaultPf.prefab
+Dependencies:
+- C:/Users/HNS Local/Desktop/NEW NCF-Turtle-VR-master/(OCCULUS) Jellybean VR/OVRAssetBundles/OVRMasterBundle/asset_fbx0
+- C:/Users/HNS Local/Desktop/NEW NCF-Turtle-VR-master/(OCCULUS) Jellybean VR/OVRAssetBundles/OVRMasterBundle/asset_mat0

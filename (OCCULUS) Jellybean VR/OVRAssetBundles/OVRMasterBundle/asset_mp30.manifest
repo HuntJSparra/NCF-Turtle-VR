@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 932339099
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4fcaad766ef110fe8781b30b10baba42
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Audio/456962__funwithsound__failure-drum-sound-effect-1.mp3
+- Assets/Audio/177702__kyles__thailand-outboard-motor-boat-high-speed-various-rising-speeds-and-tones-very-long.mp3
+Dependencies: []

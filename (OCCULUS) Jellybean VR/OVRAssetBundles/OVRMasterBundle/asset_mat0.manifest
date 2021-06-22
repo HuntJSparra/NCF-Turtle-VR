@@ -1,0 +1,53 @@
+ManifestFileVersion: 0
+CRC: 2132078459
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d9e4ebfff2f8e7af97ca5fa8df5d0724
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 22357172b8cea85847937e8f62d0c077
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Terrain Assets/Coral/Materials/Coral_Pink.mat
+- Assets/Terrain Assets/Floor/Terrain.mat
+- Assets/WaterBottleMat.mat
+- Assets/Starfish Material.mat
+- Assets/Trash/Materials/CrabPotSupport.mat
+- Assets/NewHandsMat.mat
+- Assets/FishingLineMat.mat
+- Assets/Terrain Assets/Coral/Materials/Coral_Yellow.mat
+- Assets/Trash/Materials/Bag Material.mat
+- Assets/Terrain Assets/Coral/Materials/Shelf_Coral_Green.mat
+- Assets/BubbleMat.mat
+- Assets/Oculus/SampleFramework/Core/CustomHands/Materials/Hands_solid.mat
+- Assets/SignRingsMat.mat
+- Assets/Terrain Assets/Coral/Materials/Coral_Orange.mat
+- Assets/SignCanMat.mat
+- Assets/Boat/BoatMaterial.mat
+- Assets/WaterFX/CausticsMat.mat
+- Assets/Oculus/SampleFramework/Core/CustomHands/Models/HandMaterial.mat
+- Assets/SignMat.mat
+- Assets/Terrain Assets/Floor/Grass.mat
+- Assets/Terrain Assets/Flora/sargassum mat 1.mat
+- Assets/SignCoralTouch.mat
+- Assets/Terrain Assets/Coral/Materials/Shelf_Coral_Blue.mat
+- Assets/Terrain Assets/Coral/Materials/Coral_LightPink.mat
+- Assets/SkyboxMat.mat
+- Assets/SignBottleMat.mat
+- Assets/Terrain Assets/Rocks/Rock_Mat1.mat
+- Assets/Trash/Materials/CanMaterial.mat
+- Assets/Turtle/Turtle Tex.mat
+- Assets/SodaRingsMat.mat
+Dependencies:
+- C:/Users/HNS Local/Desktop/NEW NCF-Turtle-VR-master/(OCCULUS) Jellybean VR/OVRAssetBundles/OVRMasterBundle/asset_bmp0
+- C:/Users/HNS Local/Desktop/NEW NCF-Turtle-VR-master/(OCCULUS) Jellybean VR/OVRAssetBundles/OVRMasterBundle/asset_png0
+- C:/Users/HNS Local/Desktop/NEW NCF-Turtle-VR-master/(OCCULUS) Jellybean VR/OVRAssetBundles/OVRMasterBundle/asset_shader0

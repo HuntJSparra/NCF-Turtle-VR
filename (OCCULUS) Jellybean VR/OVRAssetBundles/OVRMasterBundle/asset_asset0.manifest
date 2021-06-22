@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 1304575493
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f9029ce4464846248031c27bbe623c52
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0d3249d9038c56dc1a126053b6657dde
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 156
+  Script: {instanceID: 0}
+- Class: 1953259897
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Terrain Assets/New Terrain.asset
+Dependencies:
+- C:/Users/HNS Local/Desktop/NEW NCF-Turtle-VR-master/(OCCULUS) Jellybean VR/OVRAssetBundles/OVRMasterBundle/asset_mb0
+- C:/Users/HNS Local/Desktop/NEW NCF-Turtle-VR-master/(OCCULUS) Jellybean VR/OVRAssetBundles/OVRMasterBundle/asset_terrainlayer0

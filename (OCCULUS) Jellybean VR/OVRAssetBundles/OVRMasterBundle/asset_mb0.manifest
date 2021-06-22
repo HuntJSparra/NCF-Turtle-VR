@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+CRC: 1463603459
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b9fd00a20beae00df48d2a2900a20ccc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2b1ce6dd29accc3438f2c2d2b737b2e3
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Terrain Assets/Flora/sargassum_model.mb
+- Assets/Terrain Assets/Rocks/long_flat_rock1.mb
+- Assets/Terrain Assets/Rocks/round_tall_rock1.mb
+- Assets/Terrain Assets/Rocks/round_rock1.mb
+- Assets/Terrain Assets/Flora/Maya grass.mb
+Dependencies:
+- C:/Users/HNS Local/Desktop/NEW NCF-Turtle-VR-master/(OCCULUS) Jellybean VR/OVRAssetBundles/OVRMasterBundle/asset_mat0

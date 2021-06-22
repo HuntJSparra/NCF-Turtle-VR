@@ -25,8 +25,9 @@ Shader "Hidden/ColorCorrectionCurves" {
 	};
 	 
 	sampler2D _MainTex;
-	sampler2D_float _CameraDepthTexture;
-	
+	//sampler2D_float _CameraDepthTexture;
+	UNITY_DECLARE_DEPTH_TEXTURE(_CameraDepthTexture);
+
 	float4 _CameraDepthTexture_ST;
 	uniform float4 _MainTex_TexelSize;
 	half4 _MainTex_ST;

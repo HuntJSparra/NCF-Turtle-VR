@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 1362274250
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3536bb9b0aa6437c5ae8638c536c1cc7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 55d48f4ad9c3b13330b9eb5ee5686477
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Standard Assets/Effects/ImageEffects/Shaders/SunShaftsComposite.shader
+- Assets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurves.shader
+- Assets/Shaders/Gradient.shader
+- Assets/Shaders/TransparentBackface.shader
+- Assets/Shaders/TextureOverlay.shader
+- Assets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurvesSimple.shader
+- Assets/Standard Assets/Effects/ImageEffects/Shaders/GlobalFog.shader
+- Assets/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionSelective.shader
+- Assets/Shaders/TileProjector.shader
+- Assets/Standard Assets/Effects/ImageEffects/Shaders/SimpleClear.shader
+- Assets/Shaders/Backface.shader
+Dependencies: []

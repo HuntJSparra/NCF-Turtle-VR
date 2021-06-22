@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 2173304594
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: dcba1788b8c0e93221374efb50411d2e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Audio/A-Tone-His_Self-1266414414.wav
+- Assets/Audio/255597__akemov__underwater-ambience.wav
+Dependencies: []

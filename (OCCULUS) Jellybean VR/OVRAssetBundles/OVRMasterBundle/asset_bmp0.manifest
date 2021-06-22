@@ -1,0 +1,46 @@
+ManifestFileVersion: 0
+CRC: 2813286371
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fe822f4707e4f572d97cd6941c30a7ae
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7859cd501ea75098bcf7e53f1b477c26
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/WaterFX/Caustics Renders/CausticsRender_029.bmp
+- Assets/WaterFX/Caustics Renders/CausticsRender_026.bmp
+- Assets/WaterFX/Caustics Renders/CausticsRender_011.bmp
+- Assets/WaterFX/Caustics Renders/CausticsRender_019.bmp
+- Assets/WaterFX/Caustics Renders/CausticsRender_027.bmp
+- Assets/WaterFX/Caustics Renders/CausticsRender_012.bmp
+- Assets/WaterFX/Caustics Renders/CausticsRender_013.bmp
+- Assets/WaterFX/Caustics Renders/CausticsRender_009.bmp
+- Assets/WaterFX/Caustics Renders/CausticsRender_021.bmp
+- Assets/WaterFX/Caustics Renders/CausticsRender_017.bmp
+- Assets/WaterFX/Caustics Renders/CausticsRender_007.bmp
+- Assets/WaterFX/Caustics Renders/CausticsRender_001.bmp
+- Assets/WaterFX/Caustics Renders/CausticsRender_022.bmp
+- Assets/WaterFX/Caustics Renders/CausticsRender_030.bmp
+- Assets/WaterFX/Caustics Renders/CausticsRender_028.bmp
+- Assets/WaterFX/Caustics Renders/CausticsRender_020.bmp
+- Assets/WaterFX/Caustics Renders/CausticsRender_016.bmp
+- Assets/WaterFX/Caustics Renders/CausticsRender_006.bmp
+- Assets/WaterFX/Caustics Renders/CausticsRender_008.bmp
+- Assets/WaterFX/Caustics Renders/CausticsRender_023.bmp
+- Assets/WaterFX/Caustics Renders/CausticsRender_002.bmp
+- Assets/WaterFX/Caustics Renders/CausticsRender_014.bmp
+- Assets/WaterFX/Caustics Renders/CausticsRender_003.bmp
+- Assets/WaterFX/Caustics Renders/CausticsRender_018.bmp
+- Assets/WaterFX/Caustics Renders/CausticsRender_025.bmp
+- Assets/WaterFX/Caustics Renders/CausticsRender_015.bmp
+- Assets/WaterFX/Caustics Renders/CausticsRender_004.bmp
+- Assets/WaterFX/Caustics Renders/CausticsRender_024.bmp
+- Assets/WaterFX/Caustics Renders/CausticsRender_010.bmp
+- Assets/WaterFX/Caustics Renders/CausticsRender_005.bmp
+Dependencies: []
